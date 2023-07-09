@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: adopt-a-friend
+  namespace: argocd
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: adopt-a-friend
+  template:
+    metadata:
+      labels:
+        app: adopt-a-friend
+    spec:
+      containers:
+      - name: adopt-a-friend
+        image: 
+
+        resources:
+          limits:
+            cpu: "1"
+            memory: "1Gi"
+          requests:
+            cpu: "0.5"
+            memory: "512Mi"
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: deployment-service
+  namespace: argocd
+
+spec:
+  selector:
+    app: adopt-a-friend
+  ports:
+  - name: http
+    port: 80
+    targetPort: 
+  type: LoadBalancer
