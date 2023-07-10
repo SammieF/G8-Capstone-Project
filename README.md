@@ -62,7 +62,7 @@ To set up the AdoptAFriend-ReactFlaskFullstack project for local development, fo
 
 - [ ] In a separate terminal, activate the virtual environment, navigate to the project root directory, and run the Flask backend using python app.py.
 
-- [ ] Open your browser and access the website at http://localhost:3000.
+- [ ] Open your browser and access the website.
 
 ## Contributing
 Contributions to the AdoptAFriend React-Flask Fullstack project are welcome! If you find any issues or would like to add new features, please submit a pull request with your changes. Be sure to follow the project's coding style and guidelines.
