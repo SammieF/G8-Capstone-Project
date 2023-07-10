@@ -35,34 +35,32 @@ An infrastructure as code tool used for provisioning and managing AWS resources.
 
 ## Deployment
 
-To deploy the AdoptAFriend React-Flask Fullstack project to AWS using Terraform, Docker, EKS, and Jenkins, follow these steps:
+To deploy the AdoptAFriend React-Flask Fullstack project to AWS using Terraform, Docker, EKS, and Jenkins, these following steps were followed:
 
-- [X] Set up an AWS account if you don't have one already.
+- [X] Installed Terraform and Docker on the local machine.
 
-- [X] Install Terraform and Docker on your local machine.
+- [X] Configured  AWS credentials and access keys on the local machine.
+- [X] Created an EKS cluster using Terraform to provide the Kubernetes environment for deploying the application.
+- [X] Built Docker images for the React frontend and Flask backend.
+- [X] Pushed the Docker images to a container registry , in this project, Dockerhub was used.
+- [X] Jenkins server was set up and  necessary plugins configured for Docker, Kubernetes, and AWS integration.
 
-- [X] Configure your AWS credentials and access keys on your local machine.
-- [X] Create an EKS cluster using Terraform to provide the Kubernetes environment for deploying the application.
-- [X] Build Docker images for the React frontend and Flask backend.
-Push the Docker images to a container registry , in this project, Dockerhub was used.
-- [X] Set up a Jenkins server and configure the necessary plugins for Docker, Kubernetes, and AWS integration.
+- [X] Created a Jenkins pipeline that includes the steps for pulling the code, building the Docker images, deploying to EKS, and performing any necessary testing or quality checks.
 
-- [X] Create a Jenkins pipeline that includes the steps for pulling the code, building the Docker images, deploying to EKS, and performing any necessary testing or quality checks.
+- [X] Triggered the Jenkins pipeline for automatic builds and deployments whenever changes are pushed to the repository.
 
-- [X] Trigger the Jenkins pipeline for automatic builds and deployments whenever changes are pushed to the repository.
-
-- [X] Access the deployed website by navigating to the public URL of the EKS cluster.
+- [X] Accessed the deployed website by navigating to the public URL of the EKS cluster.
 
 ## Development Setup
-To set up the AdoptAFriend React-Flask Fullstack project for local development, follow these steps:
+To set up the AdoptAFriend React-Flask Fullstack project these steps were followed:
 
-- [ ] Clone the project repository to your local machine.
-- [ ] Set up a virtual environment and activate it.
-- [ ] Install the required Python dependencies using pip install -r requirements.txt.
-- [ ] Change to the frontend directory and install the required npm packages using npm install.
-- [ ] Start the React development server using npm start.
+- [ ] Cloned the project repository.
+- [ ] A virtual environment was set up and activated.
+- [ ] Installed the required Python dependencies defined in the requirement.txt.
+- [ ] Changed to the frontend directory and installed the required npm packages using npm install.
+- [ ] The React development server was then started using npm start.
 
-- [ ] In a separate terminal, activate the virtual environment, navigate to the project root directory, and run the Flask backend using python app.py.
+- [ ] In a separate terminal, the virtual environment was activated, navigating to the project root directory, and the Flask backend was ran using python app.py.
 
 - [ ] Open your browser and access the website.
 
