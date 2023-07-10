@@ -1,12 +1,12 @@
 # G8-capstone-project
 
-## AdoptAFriend React-Flask Fullstack
+## AdoptAFriend React-Flask Fullstack Application
 
- Welcome to AdoptAFriend-ReactFlaskFullstack! This project aims to develop a website for pet adoption using the React and Flask frameworks for the frontend and backend, respectively. The website will be deployed on AWS (Amazon Web Services) using Terraform for infrastructure as code, Docker for containerization, EKS (Elastic Kubernetes Service) for container orchestration, and Jenkins for continuous integration and continuous deployment.
+ Welcome to AdoptAFriend React-Flask application! This project aims to develop a website for pet adoption using the React and Flask frameworks for the frontend and backend, respectively. The website will be deployed on AWS (Amazon Web Services) using Terraform for infrastructure as code, Docker for containerization, EKS (Elastic Kubernetes Service) for container orchestration, and Jenkins for continuous integration and continuous deployment.
 
 ## Project Overview
 
-AdoptAFriend-ReactFlaskFullstack is a full-stack web application that connects pet seekers with pet owners and animal shelters. The application allows users to browse available pets, view their details, and contact the respective pet owners or shelters for adoption. The project leverages React for the frontend to provide an interactive and responsive user interface, while Flask is used for the backend to handle database interactions and API requests.
+AdoptAFriend React-Flask Fullstack is a full-stack web application that connects pet seekers with pet owners and animal shelters. The application allows users to browse available pets, view their details, and contact the respective pet owners or shelters for adoption. The project leverages React for the frontend to provide an interactive and responsive user interface, while Flask is used for the backend to handle database interactions and API requests.
 
 ## Features
 
@@ -33,7 +33,7 @@ An infrastructure as code tool used for provisioning and managing AWS resources.
 
 ## Deployment
 
-To deploy the AdoptAFriend-ReactFlaskFullstack project to AWS using Terraform, Docker, EKS, and Jenkins, follow these steps:
+To deploy the AdoptAFriend React-Flask Fullstack project to AWS using Terraform, Docker, EKS, and Jenkins, follow these steps:
 
 - [X] Set up an AWS account if you don't have one already.
 
@@ -52,7 +52,7 @@ Push the Docker images to a container registry , in this project, Dockerhub was 
 - [X] Access the deployed website by navigating to the public URL of the EKS cluster.
 
 ## Development Setup
-To set up the AdoptAFriend-ReactFlaskFullstack project for local development, follow these steps:
+To set up the AdoptAFriend React-Flask Fullstack project for local development, follow these steps:
 
 - [ ] Clone the project repository to your local machine.
 - [ ] Set up a virtual environment and activate it.
