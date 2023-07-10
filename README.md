@@ -2,7 +2,9 @@
 
 ## AdoptAFriend React-Flask Fullstack Application
 
- Welcome to AdoptAFriend React-Flask application! This project aims to develop a website for pet adoption using the React and Flask frameworks for the frontend and backend, respectively. The website will be deployed on AWS (Amazon Web Services) using Terraform for infrastructure as code, Docker for containerization, EKS (Elastic Kubernetes Service) for container orchestration, and Jenkins for continuous integration and continuous deployment.
+ Welcome to AdoptAFriend React-Flask application! 
+
+This project aims to develop a website for pet adoption using the React and Flask frameworks for the frontend and backend, respectively. The website will be deployed on AWS (Amazon Web Services) using Terraform for infrastructure as code, Docker for containerization, EKS (Elastic Kubernetes Service) for container orchestration, and Jenkins for continuous integration and continuous deployment.
 
 ## Project Overview
 
